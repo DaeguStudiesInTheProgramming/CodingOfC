@@ -1,0 +1,21 @@
+//P192 문제 2번, by squirrel
+
+#include <stdio.h>
+
+#define Row 3
+#define Col 5
+
+int main(void)
+{
+  int i,j;
+  
+  for(i=0;i<Row;i++)
+  {
+    for(j=0;j<Col;j++)
+      printf("$");
+    
+    printf("\n");
+  }
+  
+  return 0;
+}

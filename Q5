@@ -1,0 +1,24 @@
+//P192 문제 5번, by squirrel
+
+#include <stdio.h>
+
+#define M 5
+
+int main(void)
+{
+  int i,j;
+  
+  for(i=0;i<M;i++)
+  {
+    for(j=0;j<M;j++)
+      if( (j == i) || ( (M-j) == (i+1) ) )
+        printf("*");
+      else
+        printf(" ");
+    
+    printf("\n");
+
+  }
+  
+  return 0;
+}
